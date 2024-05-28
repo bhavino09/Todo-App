@@ -1,0 +1,170 @@
+/* Container for the input box */
+.input-box {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #a5a4a4;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.title {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+/* Styling for the input field */
+.input-field {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.submit-button {
+  display: block;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.data-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #b3b3b3;
+  border-bottom: 2px solid #ccc;
+}
+
+.header-value,
+.header-id {
+  font-weight: bold;
+  flex-basis: 40%; /* Adjust flex-basis for better alignment */
+  text-align: left; /* Align text to left */
+}
+.header-action {
+  font-weight: bold;
+  flex-basis: 15%;
+}
+
+/* Hover effect for the submit button */
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the list of data items */
+.data-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+/* Styling for individual data items */
+.data-item {
+  position: relative; /* Required for absolute positioning */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f95e;
+  border-bottom: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+/* Alternate background color for odd data items */
+.data-item:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+/* Hover effect for data items */
+.data-item:hover {
+  background-color: #d1d1d1;
+}
+
+/* Styling for the delete button */
+.delete-button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+/* Hover effect for the delete button */
+.delete-button:hover {
+  background-color: #c62828;
+}
+
+/* Styling for the edit button */
+.edit-button {
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 2px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+/* Hover effect for the edit button */
+.edit-button:hover {
+  background-color: #0277bd;
+}
+
+/* Styling for the item ID */
+.item-id {
+  font-size: 14px; /* Adjust font size as needed */
+  color: #777; /* Change color to a lighter shade */
+  margin-left: auto; /* Push the item ID to the right */
+}
+
+/* Styling for the item value */
+.item-value {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold; /* Make the text bold */
+  color: #333; /* Change the color to a darker shade */
+}
+.item-value,
+.item-id {
+  flex-basis: 40%; /* Adjust flex-basis for better alignment */
+  text-align: left; /* Align text to left */
+}
+.button-container {
+  display: flex;
+  gap: 5px;
+}
+
+/* Move the button container to the right */
+.data-item .button-container {
+  margin-left: auto;
+}
