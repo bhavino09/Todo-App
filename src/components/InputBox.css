@@ -1,3 +1,8 @@
+* {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 /* Container for the input box */
 .input-box {
   max-width: 500px;
@@ -75,6 +80,8 @@
   list-style-type: none;
   padding: 0;
   margin: 20px 0;
+  max-height: 250px;
+  overflow-y: scroll;
 }
 
 /* Styling for individual data items */
